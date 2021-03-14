@@ -64,6 +64,28 @@ section.redes a:hover{
     color: black;
 }
 
+section.fotos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+section.fotos div{
+    display: flex;
+    margin: 30px;
+    flex-direction: column;
+}
+
+section.fotos div{
+    font-size: 22px;
+}
+
+section.fotos img{
+    width: 500px;
+    height: 500px;
+}
+
 
 @media screen and (max-width: 1024px){
     section.cardapio h2{
@@ -100,5 +122,14 @@ section.redes a:hover{
 
     section.redes a{
         margin-bottom: 20px;
+    }
+
+    section.fotos div{
+        font-size: 15px;
+    }
+
+    section.fotos img{
+        width: 300px;
+        height: 300px;
     }
 }
