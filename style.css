@@ -90,6 +90,11 @@ section.fotos img{
 
 
 @media screen and (max-width: 1024px){
+    section.logo img{
+        width: 374px;
+        height: 216.21875px;
+    }
+    
 
     section.cardapio h2{
         font-size: 38px;
@@ -107,6 +112,10 @@ section.fotos img{
 }
 
 @media screen and (max-width: 768px){
+    section.logo img{
+        width: 300px;
+        height: 173.4375px;
+    }
     
     section.cardapio h2{
         font-size: 24px;
