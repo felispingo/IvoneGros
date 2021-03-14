@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html, body{
+    height: 100%;
+    margin: 0 auto;
+    max-width: 1280px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*
+    Paleta de cores:
+*/
+
+
+section.logo{
+    background-color: brown;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+section.cardapio{
+    background-color: aqua;
+}
+
+section.cardapio img{
+    width: 100%;
+}
+
+
+section.redes{
+    width: 100%;
+}
+
+div.sociais{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+div.sociais a{
+    width: 200px;
+    height: 80px;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f09433;
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    border-radius: 2px;
+}
+
+div.sociais a:nth-of-type(2){
+    background: rgb(14, 87, 223);
+}
+
+div.telefone{
+    background-color: #00E676;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.telefone p{
+    width: 200px;
+    height: 80px;
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00E676;
+    border-radius: 2px;
+}
